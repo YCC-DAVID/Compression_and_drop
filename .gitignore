@@ -1,0 +1,6 @@
+data/
+*.tar.gz
+*.zip
+*.pt
+*.pth
+*.bin
