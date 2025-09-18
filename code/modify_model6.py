@@ -5,7 +5,7 @@ import os
 import math
 import time
 import zfpy
-import zfpy_cuda
+# import zfpy_cuda
 import wandb
 import tempfile
 import argparse

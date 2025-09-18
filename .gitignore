@@ -4,3 +4,9 @@ data/
 *.pt
 *.pth
 *.bin
+
+# Python
+__pycache__/
+
+# Wandb
+wandb/

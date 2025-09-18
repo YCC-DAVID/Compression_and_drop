@@ -1,0 +1,12 @@
+zfpy==1.0.0
+transformers==4.47.1
+tqdm
+scikit-learn
+pandas
+numpy
+matplotlib
+huggingface-hub
+wandb
+pympler
+torchmetrics
+jetson-stats
