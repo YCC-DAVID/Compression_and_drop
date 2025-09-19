@@ -32,7 +32,7 @@ docker exec -it cmp bash
 
 ## Environment Setup
 ```
-apt update && apt install python-is-python3 -y
+apt update && apt install python-is-python3 tmux -y
 cd /mnt/Compression_and_drop
 pip install -r requirements.txt --index-url https://pypi.jetson-ai-lab.io/jp6/cu126
 ```
