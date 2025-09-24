@@ -39,5 +39,9 @@ pip install -r requirements.txt --index-url https://pypi.jetson-ai-lab.io/jp6/cu
 
 ## Project Run Command
 ```
-CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -epo 160 -fzepo 30 60 -drp 5 10 -tol 1e2 -gma 0.3 -m ssim --cmp_batch_size 8
+test 1
+CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -epo 50 -fzepo 20 40 -p 5 10 > ./test1.log
+
+test 2
+CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -epo 50 -fzepo 20 40 -drp 5 10 -gma 0.2 -m ssim --cmp_batch_size 8 > ./test2.log
 ```

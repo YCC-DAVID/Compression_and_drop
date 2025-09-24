@@ -226,6 +226,7 @@ def main():
         },
         name = generate_name(args),
         notes = f"batch size {args.cmp_batch_size} compression proposed Flip with {args.metric} gamma {args.gamma}",
+        mode="offline"
     )
 
     
