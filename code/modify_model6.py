@@ -448,7 +448,7 @@ def main():
                         blur_transform = transforms.GaussianBlur(kernel_size=(5, 5), sigma=(0.5, 1.5))
                         data_augmentation = timed_compose([
                         # transforms.RandomHorizontalFlip(p=0.5),
-                        AddGaussianNoise(0, 0.03),
+                        # AddGaussianNoise(0, 0.03),
                         # rota_transform,
                         # blur_transform,
                         crop_transform
@@ -459,9 +459,9 @@ def main():
                         blur_transform = transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 1.0))
                         data_augmentation = timed_compose([
                         # transforms.RandomHorizontalFlip(p=0.5),
-                        AddGaussianNoise(0, 0.01),
+                        # AddGaussianNoise(0, 0.01),
                         # rota_transform,
-                        blur_transform,
+                        # blur_transform,
                         crop_transform
                         ])
                     train_dataset = CustomCmpBatchDataset(cmp_act[0], cmp_act[1], flip_prob=0.5, transform=data_augmentation

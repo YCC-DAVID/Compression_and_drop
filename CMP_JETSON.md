@@ -44,4 +44,13 @@ CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -e
 
 test 2
 CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -epo 50 -fzepo 20 40 -drp 5 10 -gma 0.2 -m ssim --cmp_batch_size 8 > ./test2.log
+
+test 3
+CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -epo 50 -fzepo 20 40 -drp 5 10 -gma 0.2 -m ssim --cmp_batch_size 16 > ./test3.log
+
+test 4
+CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -epo 50 -fzepo 20 40 -drp 5 10 -gma 0.2 -m ssim --cmp_batch_size 4 > ./test4.log
+
+test 5
+CUDA_VISIBLE_DEVICES=0 python /mnt/Compression_and_drop/code/modify_model6.py -epo 50 -fzepo 20 40 -drp 5 10 -gma 0.2 -m ssim --cmp_batch_size 8 > ./test5.log
 ```
