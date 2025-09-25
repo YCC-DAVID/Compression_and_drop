@@ -1,0 +1,27 @@
+POWER MONITORING STATISTICS
+========================================
+Generated: 2025-09-25 14:52:54
+Duration: 306.30 seconds
+Data Points: 2878
+
+VDD_IN:
+  Mean: 15008.44 mW
+  Std Dev: 2563.44 mW
+  Min: 6994 mW
+  Max: 24999 mW
+  Samples: 2878
+
+VDD_CPU_GPU_CV:
+  Mean: 5406.40 mW
+  Std Dev: 1649.94 mW
+  Min: 1217 mW
+  Max: 11980 mW
+  Samples: 2878
+
+VDD_SOC:
+  Mean: 4393.03 mW
+  Std Dev: 547.57 mW
+  Min: 1976 mW
+  Max: 6289 mW
+  Samples: 2878
+
